@@ -1,5 +1,5 @@
-># API *(application programming interface)*
->서버＆클라이언트에서 `데이터`를 `요청＆전송`하기 위한 `신호` 체계
+># API *(Application Programming Interface)*
+>서버＆클라이언트에서 `데이터`를 `요청＆응답`하기 위한 `신호` 체계
 >
 >### XML, JSON, YAML
 >### AJAX
@@ -43,7 +43,10 @@ birth: 생년월일
 ## AJAX *(Asynchronous Javascript And Xml)*
 `데이터`를 `자바스크립트`로 `서버`에 `비동기 방식`으로 `요청`하는 것
 ```angular2html
-비동기 방식: 웹 사이트를 `새로고침` 하지 않고 서버에서 데이터를 전송하는 방식
+동기 방식: 서버로 요청햇을 때, 응답이 돌아와야 다음 동작 실행
+
+비동기 방식: 서버로 요청했을 때, 응답 상태와 상관없이 다음 동작 실행
+예) 검색어 자동완성, 장바구니 아이템 추가, ...
 ```
 
 + ### DOM *(Document Object Model)*
