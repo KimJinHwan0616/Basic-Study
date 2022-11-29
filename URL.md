@@ -1,4 +1,4 @@
-># URL
+># URL *(Uniform Resource Locator)*
 >`자료` *(이미지, PDF, ...)* 의 `위치`를 나타내는 주소 
 >### IP 주소
 >### 도메인, 호스트명, 통신 규칙
