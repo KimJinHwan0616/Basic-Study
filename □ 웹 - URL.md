@@ -1,5 +1,5 @@
 ># URL *(Uniform Resource Locator)*
->`자료` *(이미지, PDF, ...)* 의 `위치`를 나타내는 주소 
+>`자료` *(이미지, PDF, ...)* 의 `위치`를 나타내는 `주소` 
 >### IP 주소
 >### 도메인, 호스트명, 통신 규칙
 ```angular2html
@@ -62,15 +62,17 @@ IPv6: 16진수(0~F) - 4자리 - 8마디
   예) 로컬 DNS, 루트 네임 서버, ...
   ```
     
-  >로컬 DNS 서버 
+  >로컬 DNS 
   >```
-  >클라이언트가 '가장 먼저 접근'하는 DNS
+  >클라이언트가 '가장 먼저' 접근하는 DNS
   >```
-  
----
 
 ## 호스트명
-+ ### WWW *(W3, World Wide Web)*
+```angular2html
+예) www, mail, search, ...
+```
+
++ ### www *(W3, World Wide Web)*
   `전 세계 사람`이 정보를 공유하고 소통할 수 있는 `인터넷 공간`
 
   >하이퍼텍스트 *(hypertext)*
@@ -80,16 +82,16 @@ IPv6: 16진수(0~F) - 4자리 - 8마디
   >예) 뉴스, 블로그, ...
   >```
 
----
-
 ## 통신 규칙 *(protocol)*
-`클라이언트`와 `서버`의 `소통 방법`
+`클라이언트` ↔ `서버`
 ```angular2html
 메소드(클라이언트 → 서버)
 ▶ GET: 데이터 요청
 ▶ POST: 데이터 저장
-▶ PUT: 전체 데이터 수정(게시글 수정)
-▶ PATCH: 일부 데이터 수정(게시글 조회수 증가)
+▶ PUT: 전체 데이터 수정
+예) 게시글 수정
+▶ PATCH: 일부 데이터 수정
+예) 게시글 조회수 증가
 ▶ DELETE: 데이터 삭제
 ▶ OPTIONS: URL 메소드 허용 목록
 
@@ -106,9 +108,9 @@ IPv6: 16진수(0~F) - 4자리 - 8마디
 ```
 
 + ### HTTP *(HypterText Transfer Protocol)*
-  `클라이언트-요청`과 `서버-응답`으로 구성
+  `요청(클라이언트)`＆`응답(서버)`
 
 
 + ### HTTPS *(HypterText Transfer Protocol Secure socket layer)*
-  `보안 기능` + HTTP
+  `보안 기능` + `HTTP`
 
